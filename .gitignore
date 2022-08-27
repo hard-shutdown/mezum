@@ -13,3 +13,13 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Merged with Ignite .gitignore
+
+vue/node_modules
+vue/dist
+release/
+.idea/
+.vscode/
+.DS_Store
+
