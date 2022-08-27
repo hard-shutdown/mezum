@@ -1,4 +1,3 @@
 tasks:
   - name: Install Ignite CLI
-    before: curl https://get.ignite.com/cli! | sudo bash
-    command: clear && echo "Prebuild Finished"
+    before: curl https://get.ignite.com/cli! | sudo bash && rm -rf /workspace/.gitpod/cmd-0 && clear
